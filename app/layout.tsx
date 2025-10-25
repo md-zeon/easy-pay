@@ -24,10 +24,10 @@ export default function RootLayout({
       <body
         className={`${inter.variable} antialiased`}
       >
-        <nav>
-          <Navbar />
-        </nav>
-        <main>
+        {/* Navbar */}
+        <Navbar />
+        {/* Main Content */}
+        <main className="max-w-[1440px] mx-auto">
           {children}
         </main>
       </body>
