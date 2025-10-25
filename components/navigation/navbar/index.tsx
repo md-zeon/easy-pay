@@ -6,7 +6,7 @@ import NavLinks from "./NavLinks"
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center gap-2 px-4">
+    <nav className="flex justify-between items-center gap-2 px-4 font-inter max-w-[1440px] mx-auto fixed top-0 left-0 right-0 z-50 backdrop-blur-sm">
       {/* Left Logo */}
       <Link href="/" className="flex items-center gap-1">
         <Image

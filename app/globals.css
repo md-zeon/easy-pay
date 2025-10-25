@@ -127,3 +127,8 @@
 		font-size: 1.125rem;
 	}
 }
+
+@theme {
+	--font-sf-compact-display: var(--font-sf-compact-display);
+	--font-inter: var(--font-inter);
+}
