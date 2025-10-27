@@ -11,7 +11,7 @@ const BrandsMarquee = () => {
                 alt="Brand 1"
                 width={180}
                 height={40}
-                className="mx-4"
+                className="mx-10"
             />
             {/* Brand 2 */}
             <Image
@@ -19,7 +19,7 @@ const BrandsMarquee = () => {
                 alt="Brand 2"
                 width={180}
                 height={40}
-                className="mx-4"
+                className="mx-10"
             />
             {/* Brand 3 */}
             <Image
@@ -27,7 +27,7 @@ const BrandsMarquee = () => {
                 alt="Brand 3"
                 width={180}
                 height={40}
-                className="mx-4"
+                className="mx-10"
             />
             {/* Brand 4 */}
             <Image
@@ -35,7 +35,7 @@ const BrandsMarquee = () => {
                 alt="Brand 4"
                 width={180}
                 height={40}
-                className="mx-4"
+                className="mx-10"
             />
             {/* Brand 5 */}
             <Image
@@ -43,7 +43,7 @@ const BrandsMarquee = () => {
                 alt="Brand 5"
                 width={180}
                 height={40}
-                className="mx-4"
+                className="mx-10"
             />
             {/* Brand 6 */}
             <Image
@@ -51,7 +51,7 @@ const BrandsMarquee = () => {
                 alt="Brand 6"
                 width={180}
                 height={40}
-                className="mx-4"
+                className="mx-10"
             />
         </Marquee>
     )
