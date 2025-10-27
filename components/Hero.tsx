@@ -83,7 +83,7 @@ const Hero = () => {
                 </article>
             </div>
             {/* Background Image */}
-            <Image src="/images/hero-bg.png" alt="Hero Background" className='-z-30 w-full h-full object-cover object-center' priority fill />
+            <Image src="/images/Hero-bg.svg" alt="Hero Background" className='-z-30 w-full h-full object-cover object-center' priority fill />
         </section>
     )
 }

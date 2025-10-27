@@ -42,7 +42,7 @@ export default function RootLayout({
         {/* Navbar */}
         <Navbar />
         {/* Main Content */}
-        <main className="font-inter">
+        <main className="font-inter space-y-16 sm:space-y-28">
           {children}
         </main>
       </body>
