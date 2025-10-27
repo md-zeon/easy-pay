@@ -1,4 +1,5 @@
 import FeatureCard from "./cards/FeatureCard"
+import BrandsMarquee from "./marquee/BrandsMarquee"
 
 const Features = () => {
     return (
@@ -40,7 +41,8 @@ const Features = () => {
                 />
             </div>
 
-            {/* Brand Logos */}
+            {/* Brand Logos Marquee */}
+            <BrandsMarquee />
         </section>
     )
 }
