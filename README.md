@@ -2,6 +2,10 @@
 
 A modern, responsive fintech landing page for Easy Pay - a secure, seamless, and fee-free payment platform for effortless global transactions.
 
+## 🌐 Live Demo
+
+Check out the live deployment: [https://easy-pay-livid.vercel.app/](https://easy-pay-livid.vercel.app/)
+
 ## 🚀 Features
 
 - **Instant Payments** - Send money to friends or family in real-time, for free
@@ -186,9 +190,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or support, please visit our [Contact Page](/contact) or reach out through:
 
-- Email: support@easypay.com
-- Phone: +1 (555) 123-4567
-
+- Email: zeon.cse@gmail.com
 ---
 
 **Easy Pay** - Secure, seamless, and fee-free payments for effortless global transactions.

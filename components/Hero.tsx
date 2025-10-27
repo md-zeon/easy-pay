@@ -1,6 +1,7 @@
-import { CheckCircleIcon, TrendingUp } from 'lucide-react'
+import { CheckCircleIcon } from 'lucide-react'
 import StoreButton from './button/StoreButton'
 import Image from 'next/image'
+import HeroCards from './HeroCards'
 
 const Hero = () => {
     return (
@@ -54,31 +55,7 @@ const Hero = () => {
                 <article>
                     <div className='relative'>
                         <Image src="/images/hero-image.png" alt="Hero Image" width={500} height={500} className='mx-auto' />
-                        {/* Card 1 */}
-                        <div className='p-5 rounded-lg bg-background w-56 shadow-lg absolute bottom-10 -sm:left-10'>
-                            <h4 className='font-semibold'>Payment Received</h4>
-                            <p className='text-[#2E68FD]'>+35,890.00</p>
-                            <div className='flex justify-between mt-2 gap-2 text-sm'>
-                                <span className='text-[#4D525F]'>1st Jan, 2025</span>
-                                <span className='text-green-500'>
-                                    3.09% <TrendingUp className='inline-block ml-1' size={16} />
-                                </span>
-                            </div>
-                        </div>
-
-                        {/* Card 2 */}
-                        <div className='flex justify-between items-center p-5 rounded-lg bg-background w-max shadow-lg absolute lg:top-40 top-10 right-3 md:right-12'>
-                            <Image
-                                src="/images/avatars.png"
-                                alt='Avatars'
-                                width={96}
-                                height={40}
-                            />
-                            <div>
-                                <h4 className='font-semibold'>120K+</h4>
-                                <p className='text-sm text-[#4D525F]'>Active Users</p>
-                            </div>
-                        </div>
+                        <HeroCards />
                     </div>
                 </article>
             </div>

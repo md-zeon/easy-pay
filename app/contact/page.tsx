@@ -130,8 +130,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-medium text-gray-900 mb-1">Email</h3>
+                      <p className="text-gray-600">zeon.cse@gmail.com</p>
                       <p className="text-gray-600">support@easypay.com</p>
-                      <p className="text-gray-600">business@easypay.com</p>
                     </div>
                   </div>
 
