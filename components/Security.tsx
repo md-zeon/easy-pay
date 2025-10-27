@@ -11,7 +11,7 @@ const securityFeatures = [
 
 const Security = () => {
     return (
-        <section className='px-4 max-w-[1440px] mx-auto'>
+        <section id="security" className='px-4 max-w-[1440px] mx-auto'>
             <h2 className="text-[#932EFA] uppercase text-sm font-bold mb-4">SECURITY</h2>
             <div className="flex flex-col md:flex-row justify-between items-center gap-10 mb-12">
                 <h1 className="text-4xl font-bold w-xl">
