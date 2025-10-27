@@ -1,3 +1,14 @@
+import SecurityCard from "./cards/SecurityCard"
+
+const securityFeatures = [
+    { title: "Two-factor authentication", description: "Two-factor authentication ensures added protection by using verification steps.", iconColor: "bg-blue-600", iconBackground: "bg-blue-400" },
+    { title: "Fraud detection and alerts", description: "Fraud detection safeguards your money, sending instant alerts for any activity.", iconColor: "bg-red-600", iconBackground: "bg-red-100" },
+    { title: "Transaction notifications", description: "Instant notifications for transactions keep you informed to manage your finances.", iconColor: "bg-green-600", iconBackground: "bg-green-100" },
+    { title: "Biometric access", description: "Easily and securely log in with biometric features, and facial recognition.", iconColor: "bg-teal-600", iconBackground: "bg-teal-100" },
+    { title: "End-to-end encryption", description: "By encryption, protecting your data from unauthorized access.", iconColor: "bg-orange-600", iconBackground: "bg-orange-100" },
+    { title: "24/7 Protection support", description: "Our dedicated team is available around the clock to help you.", iconColor: "bg-purple-600", iconBackground: "bg-purple-100" }
+];
+
 const Security = () => {
     return (
         <section className='px-4 max-w-[1440px] mx-auto'>
@@ -11,6 +22,20 @@ const Security = () => {
                 </p>
             </div>
 
+            {/* Security Features */}
+
+            <div className="p-10  rounded-xl bg-[#F6F6F6] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mb-20">
+                {securityFeatures.map((feature, index) => (
+                    <SecurityCard
+                        key={feature.title}
+                        title={feature.title}
+                        description={feature.description}
+                        iconColor={feature.iconColor}
+                        iconBackground={feature.iconBackground}
+                        separator={(index !== 2 && index !== 5) ? true : false}
+                    />
+                ))}
+            </div>
         </section>
     )
 }
