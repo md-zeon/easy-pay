@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/navigation/navbar";
+import Footer from "@/components/Footer";
 
 const inter = localFont({
   src: "./fonts/InterVF.ttf",
@@ -37,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${sfCompactDisplay.variable} antialiased`}
+        className={`${inter.variable} ${sfCompactDisplay.variable} antialiased scroll-smooth`}
       >
         {/* Navbar */}
         <Navbar />
@@ -45,6 +46,8 @@ export default function RootLayout({
         <main className="font-inter space-y-16 sm:space-y-28">
           {children}
         </main>
+        {/* Footer */}
+        <Footer />
       </body>
     </html>
   );

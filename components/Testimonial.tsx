@@ -75,7 +75,7 @@ export default function Testimonial() {
     const nextRef = useRef<HTMLButtonElement | null>(null);
 
     return (
-        <section className="py-16 sm:py-32 bg-[#F6F6F6]">
+        <section id="testimonial" className="py-16 sm:py-32 bg-[#F6F6F6]">
             <div className="max-w-[1440px] mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
                 {/* Header Section */}
                 <div className="text-left">

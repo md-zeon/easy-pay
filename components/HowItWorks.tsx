@@ -4,7 +4,7 @@ import { Button } from "./ui/button"
 
 const HowItWorks = () => {
     return (
-        <section className="px-4 py-32 bg-[#F6F6F6]">
+        <section id="how-it-works" className="px-4 py-32 bg-[#F6F6F6]">
             <div className="max-w-[1440px] mx-auto">
                 <div className="flex mb-12">
                     <div className="flex-1">
