@@ -1,10 +1,9 @@
 import ROUTES from '@/constants/routes'
 import Link from 'next/link'
-import React from 'react'
 
-const NavLinks = () => {
+const NavLinks = ({ isMobileNav }: { isMobileNav?: boolean }) => {
     return (
-        <ul className="flex items-center gap-6 text-paragraph">
+        <ul className={`flex gap-6 text-paragraph ${isMobileNav ? 'flex-col' : 'flex-row items-center'}`}>
             <li>
                 <Link href={ROUTES.FEATURES} className="hover:underline">
                     Features

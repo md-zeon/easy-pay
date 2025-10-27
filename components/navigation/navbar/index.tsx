@@ -3,6 +3,7 @@ import ROUTES from "@/constants/routes"
 import Image from "next/image"
 import Link from "next/link"
 import NavLinks from "./NavLinks"
+import MobileNavigation from "./MobileNavigation"
 
 const Navbar = () => {
   return (
@@ -19,16 +20,23 @@ const Navbar = () => {
         <h2 className="font-bold text-2xl">Easy Pay</h2>
       </Link>
       {/* Middle Links */}
-      <NavLinks />
+      <div className="hidden sm:block">
+        <NavLinks />
+      </div>
       {/* Right Button */}
       <Link
         href={ROUTES.CONTACT}
-        className="text-sm font-medium"
+        className="text-sm font-medium sm:block hidden"
       >
         <Button className="btn bg-primary rounded-full text-white px-6 hover:bg-transparent hover:text-primary border border-primary transition">
           Contact Us
         </Button>
       </Link>
+
+      {/* Mobile Navigation */}
+      <div className="sm:hidden">
+        <MobileNavigation />
+      </div>
     </nav>
   )
 }

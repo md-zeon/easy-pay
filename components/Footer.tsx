@@ -13,7 +13,6 @@ const Footer = () => {
                             href="/"
                             aria-label="home"
                             className="flex items-center space-x-1">
-                            {/* <Logo /> */}
                             <Image
                                 src='/icons/logo.svg'
                                 alt="Logo"
@@ -72,7 +71,6 @@ const Footer = () => {
                         <div>
                             <h4 className="font-semibold text-gray-900 mb-4">Other pages</h4>
                             <ul className="space-y-2">
-                                {/* {['Privacy policy', 'Terms & conditions', '404'].map((item) => ( */}
                                 <li>
                                     <Link
                                         href={ROUTES.PRIVACY_POLICY}
@@ -97,18 +95,12 @@ const Footer = () => {
                                         404
                                     </Link>
                                 </li>
-                                {/* ))} */}
                             </ul>
                         </div>
                     </div>
-
-
-
-                    {/* Empty column for spacing on large screens */}
-                    {/* <div className="hidden md:block"></div> */}
                 </div>
 
-                {/* Bottom Copyright with GLOW */}
+                {/* Copyright */}
                 <div className="mt-12 pt-8 border-t border-gray-200 text-center">
                     <p
                         className="text-sm text-gray-500"
