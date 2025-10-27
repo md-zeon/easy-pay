@@ -39,6 +39,8 @@ const Features = () => {
                     otherClasses="bg-[#F4EDFC]"
                 />
             </div>
+
+            {/* Brand Logos */}
         </section>
     )
 }
