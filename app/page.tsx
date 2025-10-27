@@ -1,6 +1,7 @@
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
+import Security from "@/components/Security";
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
 
       {/* How it works Section */}
       <HowItWorks />
+
+      {/* Security Section */}
+      <Security />
     </>
   );
 }
