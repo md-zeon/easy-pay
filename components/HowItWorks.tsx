@@ -6,7 +6,7 @@ const HowItWorks = () => {
     return (
         <section id="how-it-works" className="px-4 py-32 bg-[#F6F6F6]">
             <div className="max-w-[1440px] mx-auto">
-                <div className="flex mb-12">
+                <div className="flex max-md:flex-col mb-12 gap-6">
                     <div className="flex-1">
                         <h2 className="text-[#932EFA] uppercase text-sm font-bold">How It Works</h2>
                         <h1 className="text-4xl font-bold mt-4">
@@ -14,8 +14,9 @@ const HowItWorks = () => {
                             more in 3 simple steps
                         </h1>
                     </div>
-
-                    <Button size="lg" className="rounded-full self-end">Get Started Now</Button>
+                    <div className="md:self-end">
+                        <Button size="lg" className="rounded-full">Get Started Now</Button>
+                    </div>
                 </div>
                 {/* How It Works Steps */}
                 <div className="flex flex-col md:flex-row justify-between items-center gap-14 mb-20 bg-white rounded-2xl p-6">

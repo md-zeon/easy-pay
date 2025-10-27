@@ -14,9 +14,9 @@ const StepCard = ({ imgUrl, title, description }: StepCardProps) => {
                 alt={title}
                 width={95}
                 height={95}
-                className="size-24"
+                className="size-24 max-md:mx-auto"
             />
-            <div className="mt-auto space-y-2">
+            <div className="mt-auto space-y-2 max-md:text-center">
                 <h3 className="text-xl font-semibold mt-4">{title}</h3>
                 <p className="text-sm text-[#4D525F]">{description}</p>
             </div>

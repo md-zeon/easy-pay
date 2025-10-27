@@ -5,9 +5,9 @@ import Image from 'next/image'
 const Hero = () => {
     return (
         <section className='relative overflow-hidden'>
-            <div className='grid grid-cols-1 sm:grid-cols-2 px-4 pt-28 max-w-[1440px] mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 px-4 pt-28 max-w-[1440px] mx-auto'>
                 {/* Left Content */}
-                <article>
+                <article className='text-center md:text-start'>
                     <h3 className='text-[#787878] uppercase font-semibold mb-2'>EASY PAYMENT</h3>
                     <h1 className="mt-2 text-4xl text-black md:text-5xl font-bold leading-tight">
                         <span className="relative inline-block">
@@ -22,12 +22,12 @@ const Hero = () => {
                                 />
                             </span>
                         </span>
-
-                        from anywhere
+                        <br />
+                        {" "}from anywhere
                     </h1>
                     <p className='mt-2.5 mb-6'>Experience the future of payments: fast, secure, and tailored for the next generation&apos;s convenience and trust.</p>
                     {/* Buttons */}
-                    <div className='flex gap-2 items-center'>
+                    <div className='flex gap-2 items-center max-md:justify-center'>
                         <StoreButton
                             src='/icons/apple-store.svg'
                             title='App Store'
@@ -39,7 +39,7 @@ const Hero = () => {
                             subtitle='GET IT ON'
                         />
                     </div>
-                    <div className='flex gap-2 items-center mt-3'>
+                    <div className='flex gap-2 items-center mt-3 max-md:justify-center'>
                         <span>
                             <CheckCircleIcon className='inline-block mr-2' size={20} />
                             No Card required
@@ -53,9 +53,9 @@ const Hero = () => {
                 {/* Right Content */}
                 <article>
                     <div className='relative'>
-                        <Image src="/images/hero-image.png" alt="Hero Image" width={500} height={500} />
+                        <Image src="/images/hero-image.png" alt="Hero Image" width={500} height={500} className='mx-auto' />
                         {/* Card 1 */}
-                        <div className='p-5 rounded-lg bg-white w-56 shadow-lg absolute bottom-10 -left-10'>
+                        <div className='p-5 rounded-lg bg-background w-56 shadow-lg absolute bottom-10 -sm:left-10'>
                             <h4 className='font-semibold'>Payment Received</h4>
                             <p className='text-[#2E68FD]'>+35,890.00</p>
                             <div className='flex justify-between mt-2 gap-2 text-sm'>
@@ -67,7 +67,7 @@ const Hero = () => {
                         </div>
 
                         {/* Card 2 */}
-                        <div className='flex justify-between items-center p-5 rounded-lg bg-white w-max shadow-lg absolute top-40 right-12'>
+                        <div className='flex justify-between items-center p-5 rounded-lg bg-background w-max shadow-lg absolute lg:top-40 top-10 right-3 md:right-12'>
                             <Image
                                 src="/images/avatars.png"
                                 alt='Avatars'

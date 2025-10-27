@@ -1,7 +1,7 @@
 import SecurityCard from "./cards/SecurityCard"
 
 const securityFeatures = [
-    { title: "Two-factor authentication", description: "Two-factor authentication ensures added protection by using verification steps.", iconColor: "bg-blue-600", iconBackground: "bg-blue-400" },
+    { title: "Two-factor authentication", description: "Two-factor authentication ensures added protection by using verification steps.", iconColor: "bg-blue-600", iconBackground: "bg-blue-100" },
     { title: "Fraud detection and alerts", description: "Fraud detection safeguards your money, sending instant alerts for any activity.", iconColor: "bg-red-600", iconBackground: "bg-red-100" },
     { title: "Transaction notifications", description: "Instant notifications for transactions keep you informed to manage your finances.", iconColor: "bg-green-600", iconBackground: "bg-green-100" },
     { title: "Biometric access", description: "Easily and securely log in with biometric features, and facial recognition.", iconColor: "bg-teal-600", iconBackground: "bg-teal-100" },
@@ -12,12 +12,12 @@ const securityFeatures = [
 const Security = () => {
     return (
         <section id="security" className='px-4 max-w-[1440px] mx-auto'>
-            <h2 className="text-[#932EFA] uppercase text-sm font-bold mb-4">SECURITY</h2>
-            <div className="flex flex-col md:flex-row justify-between items-center gap-10 mb-12">
-                <h1 className="text-4xl font-bold w-xl">
+            <h2 className="text-[#932EFA] uppercase text-sm font-bold mb-4 max-md:text-center">SECURITY</h2>
+            <div className="flex flex-col md:flex-row justify-between items-center sm:gap-10 gap-6 mb-12 max-md:text-center">
+                <h1 className="text-4xl font-bold max-w-xl">
                     We protect your money at every step with Easy Pay
                 </h1>
-                <p className="text-[#4D525F] w-xl md:w-md">
+                <p className="text-[#4D525F] max-w-xl md:max-w-md">
                     Easy Pay ensures your money is protected at every step with advanced encryption, real-time monitoring, and multi-factor authentication.
                 </p>
             </div>

@@ -10,7 +10,7 @@ const SecurityCard = ({ title, description, iconColor, iconBackground, separator
     return (
         <div className="flex items-center justify-between flex-col sm:flex-row">
             <div className="px-4 pt-4">
-                <div className={`mb-4 flex items-center justify-center ${iconBackground} w-fit h-fit rounded-full`}>
+                <div className={`mb-4 flex items-center justify-center ${iconBackground} w-8 h-8 rounded-full`}>
                     <span className={`w-2.5 h-2.5 rounded-full ${iconColor}`}></span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">{title}</h3>
