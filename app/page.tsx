@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
 import Security from "@/components/Security";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
 
       {/* Pricing Section */}
       <Pricing />
+
+      {/* Testimonial Section */}
+      <Testimonial />
     </>
   );
 }
