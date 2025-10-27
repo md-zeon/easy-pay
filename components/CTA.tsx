@@ -8,8 +8,8 @@ const CTA = () => {
                 <p>Ready for hassle-free, secure payments anywhere in the world? Start using Monks Pay today it&apos;s fast, free, and focused on keeping your transactions secure!</p>
                 {/* Buttons */}
                 <div className="flex justify-center items-center mt-10 gap-4">
-                    <Button className="rounded-full py-3">Download the App</Button>
-                    <Button variant="outline" className="rounded-full py-3 bg-transparent">Get Started Now</Button>
+                    <Button className="btn bg-[#2E68FD] hover:bg-[#2E68FD] cursor-pointer min-h-12 outline-none border-none py-3 rounded-full text-white px-6">Download the App</Button>
+                    <Button variant="outline" className="min-h-12 rounded-full bg-transparent">Get Started Now</Button>
                 </div>
             </div>
             {/* Overlay */}

@@ -28,7 +28,7 @@ const Navbar = () => {
         href={ROUTES.CONTACT}
         className="text-sm font-medium sm:block hidden"
       >
-        <Button className="btn bg-primary rounded-full text-white px-6 hover:bg-transparent hover:text-primary border border-primary transition">
+        <Button className="btn bg-[#2E68FD] hover:bg-[#2E68FD] cursor-pointer min-h-12 outline-none border-none py-3 rounded-full text-white px-6">
           Contact Us
         </Button>
       </Link>
